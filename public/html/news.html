@@ -1,0 +1,198 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<meta name="generator" content="Adobe GoLive 4">
+		<title>Sons of Faydwer- News</title>
+		<csscriptdict>
+			<script><!--
+CSStopExecution = false;
+CSInit = new Array;
+function CSScriptInit() {
+idxArray = new Array;
+for(var i=0;i<CSInit.length;i++)
+	idxArray[i] = i;
+CSAction2(CSInit, idxArray);
+}
+CSAg = window.navigator.userAgent; CSBVers = parseInt(CSAg.charAt(CSAg.indexOf("/")+1),10);
+function IsIE() { return CSAg.indexOf("MSIE") > 0;}
+function CSIEStyl(s) { return document.all.tags("div")[s].style; }
+function CSNSStyl(s) { return CSFindElement(s,0); }
+function CSFindElement(n,ly) { if (CSBVers < 4) return document[n];
+	var curDoc = ly ? ly.document : document; var elem = curDoc[n];
+	if (!elem) { for (var i=0;i<curDoc.layers.length;i++) {
+		elem = CSFindElement(n,curDoc.layers[i]); if (elem) return elem; }}
+	return elem;
+}
+function CSButtonReturn () {
+	var bAgent = window.navigator.userAgent; 
+	var bAppName = window.navigator.appName;
+	if ((bAppName.indexOf("Explorer") >= 0) && (bAgent.indexOf("Mozilla/3") >= 0) && (bAgent.indexOf("Mac") >= 0))
+		return false; // follow link
+	else return true; // follow link
+}
+CSIm = new Object();
+function CSIShow(n,i) {
+	if (document.images) {
+		if (CSIm[n]) {
+			var img = (!IsIE()) ? CSFindElement(n,0) : document[n];
+			if (img && typeof(CSIm[n][i].src) != "undefined") {img.src = CSIm[n][i].src;}
+			if(i != 0)
+				self.status = CSIm[n][3];
+			else
+				self.status = " ";
+			return true;
+		}
+	}
+	return false;
+}
+function CSILoad(action) {
+	im = action[1];
+	if (document.images) {
+		CSIm[im] = new Object();
+		for (var i=2;i<5;i++) {
+			if (action[i] != '') { CSIm[im][i-2] = new Image(); CSIm[im][i-2].src = action[i]; }
+			else CSIm[im][i-2] = 0;
+		}
+		CSIm[im][3] = action[5];
+	}
+}
+CSStopExecution = false;
+
+function CSAction(array) { 
+	return CSAction2(CSAct, array);
+}
+function CSAction2(fct, array) { 
+	var result;
+	for (var i=0;i<array.length;i++) {
+		if(CSStopExecution) return false; 
+		var actArray = fct[array[i]];
+		var tempArray = new Array;
+		for(var j=1;j<actArray.length;j++) {
+			if((actArray[j] != null) && (typeof(actArray[j]) == "object") && (actArray[j].length == 2)) {
+				if(actArray[j][0] == "VAR") {
+					tempArray[j] = CSStateArray[actArray[j][1]];
+				}
+				else {
+					if(actArray[j][0] == "ACT") {
+						tempArray[j] = CSAction(new Array(new String(actArray[j][1])));
+					}
+				else
+					tempArray[j] = actArray[j];
+				}
+			}
+			else
+				tempArray[j] = actArray[j];
+		}			
+		result = actArray[0](tempArray);
+	}
+	return result;
+}
+CSAct = new Object;
+
+// --></script>
+		</csscriptdict>
+		<csactiondict>
+		<script><!--
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button',/*URL*/'../graphics/Bar/ButtonBar-01-01.gif',/*URL*/'../graphics/Bar/ButtonBarOn-01-01.gif',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button3',/*URL*/'../graphics/Bar/ButtonBar-01-03.gif',/*URL*/'../graphics/Bar/ButtonBarOn-01-03.gif',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button5',/*URL*/'../graphics/Bar/ButtonBar-01-05.gif',/*URL*/'../graphics/Bar/ButtonBarOn-01-05.gif',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button7',/*URL*/'../graphics/Bar/ButtonBar-01-07.gif',/*URL*/'../graphics/Bar/ButtonBarOn-01-07.gif',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button9',/*URL*/'../graphics/Bar/ButtonBar-01-09.gif',/*URL*/'../graphics/Bar/ButtonBarOn-01-09.gif',/*URL*/'','');
+CSInit[CSInit.length] = new Array(CSILoad,/*CMP*/'button2',/*URL*/'../graphics/Bar/ButtonBar-01-11.gif',/*URL*/'../graphics/Bar/ButtonBarOn-01-11.gif',/*URL*/'','');
+
+// --></script>
+		</csactiondict>
+	</head>
+
+	<body bgcolor="black" text="white" link="yellow" vlink="yellow" onload="CSScriptInit();">
+		<center>
+			<a name="Top"></a>
+			<table cool width="607" height="443" border="0" cellpadding="0" cellspacing="0" gridx="16" showgridx gridy="16" showgridy>
+				<tr height="1" cntrlrow>
+					<td width="1" height="1"></td>
+					<td width="47" height="1"><spacer type="block" width="47" height="1"></td>
+					<td width="557" height="1"><spacer type="block" width="557" height="1"></td>
+				</tr>
+				<tr height="76">
+					<td width="1" height="76"><spacer type="block" width="1" height="76"></td>
+					<td width="604" height="76" colspan="2" rowspan="1" valign="top" align="left" xpos="0"><img height="76" width="604" src="../graphics/NewsBanner.gif"></td>
+				</tr>
+				<tr height="83">
+					<td width="1" height="83"><spacer type="block" width="1" height="83"></td>
+					<td width="604" height="83" colspan="2" rowspan="1" valign="top" align="left" xpos="0">
+						<table cool width="607" height="43" border="0" cellpadding="0" cellspacing="0" gridx="16" showgridx gridy="16" showgridy>
+							<tr height="1" cntrlrow>
+								<td width="1" height="1"></td>
+								<td width="88" height="1"><spacer type="block" width="88" height="1"></td>
+								<td width="22" height="1"><spacer type="block" width="22" height="1"></td>
+								<td width="68" height="1"><spacer type="block" width="68" height="1"></td>
+								<td width="20" height="1"><spacer type="block" width="20" height="1"></td>
+								<td width="105" height="1"><spacer type="block" width="105" height="1"></td>
+								<td width="23" height="1"><spacer type="block" width="23" height="1"></td>
+								<td width="60" height="1"><spacer type="block" width="60" height="1"></td>
+								<td width="24" height="1"><spacer type="block" width="24" height="1"></td>
+								<td width="72" height="1"><spacer type="block" width="72" height="1"></td>
+								<td width="22" height="1"><spacer type="block" width="22" height="1"></td>
+								<td width="100" height="1"><spacer type="block" width="100" height="1"></td>
+							</tr>
+							<tr height="40">
+								<td width="1" height="40"><spacer type="block" width="1" height="40"></td>
+								<td width="88" height="40" colspan="1" rowspan="1" valign="top" align="left" xpos="0"><csobj w="88" h="40" t="Button" ht="../graphics/Bar/ButtonBarOn-01-01.gif"><a href="home.html" onmouseover="return CSIShow(/*CMP*/'button',1)" onmouseout="return CSIShow(/*CMP*/'button',0)" onclick="return CSButtonReturn()"><img src="../graphics/Bar/ButtonBar-01-01.gif" width="88" height="40" name="button" border="0"></a></csobj></td>
+								<td width="22" height="40" colspan="1" rowspan="1" valign="top" align="left" xpos="88"><img height="40" width="22" src="../graphics/Bar/ButtonBar-01-02.gif"></td>
+								<td width="68" height="40" colspan="1" rowspan="1" valign="top" align="left" xpos="110"><csobj w="68" h="40" t="Button" ht="../graphics/Bar/ButtonBarOn-01-03.gif"><a href="news.html" onmouseover="return CSIShow(/*CMP*/'button3',1)" onmouseout="return CSIShow(/*CMP*/'button3',0)" onclick="return CSButtonReturn()"><img src="../graphics/Bar/ButtonBar-01-03.gif" width="68" height="40" name="button3" border="0"></a></csobj></td>
+								<td width="20" height="40" colspan="1" rowspan="1" valign="top" align="left" xpos="178"><img height="40" width="20" src="../graphics/Bar/ButtonBar-01-04.gif"></td>
+								<td width="105" height="40" colspan="1" rowspan="1" valign="top" align="left" xpos="198"><csobj w="105" h="40" t="Button" ht="../graphics/Bar/ButtonBarOn-01-05.gif"><a href="members.html" onmouseover="return CSIShow(/*CMP*/'button5',1)" onmouseout="return CSIShow(/*CMP*/'button5',0)" onclick="return CSButtonReturn()"><img src="../graphics/Bar/ButtonBar-01-05.gif" width="105" height="40" name="button5" border="0"></a></csobj></td>
+								<td width="23" height="40" colspan="1" rowspan="1" valign="top" align="left" xpos="303"><img height="40" width="23" src="../graphics/Bar/ButtonBar-01-06.gif"></td>
+								<td width="60" height="40" colspan="1" rowspan="1" valign="top" align="left" xpos="326"><csobj w="60" h="40" t="Button" ht="../graphics/Bar/ButtonBarOn-01-07.gif"><a href="join.html" onmouseover="return CSIShow(/*CMP*/'button7',1)" onmouseout="return CSIShow(/*CMP*/'button7',0)" onclick="return CSButtonReturn()"><img src="../graphics/Bar/ButtonBar-01-07.gif" width="60" height="40" name="button7" border="0"></a></csobj></td>
+								<td width="24" height="40" colspan="1" rowspan="1" valign="top" align="left" xpos="386"><img height="40" width="24" src="../graphics/Bar/ButtonBar-01-08.gif"></td>
+								<td width="72" height="40" colspan="1" rowspan="1" valign="top" align="left" xpos="410"><csobj w="72" h="40" t="Button" ht="../graphics/Bar/ButtonBarOn-01-09.gif"><a href="links.html" onmouseover="return CSIShow(/*CMP*/'button9',1)" onmouseout="return CSIShow(/*CMP*/'button9',0)" onclick="return CSButtonReturn()"><img src="../graphics/Bar/ButtonBar-01-09.gif" width="72" height="40" name="button9" border="0"></a></csobj></td>
+								<td width="22" height="40" colspan="1" rowspan="1" valign="top" align="left" xpos="482"><img height="40" width="22" src="../graphics/Bar/ButtonBar-01-10.gif"></td>
+								<td width="100" height="40" colspan="1" rowspan="1" valign="top" align="left" xpos="504"><csobj w="100" h="40" t="Button" ht="../graphics/Bar/ButtonBarOn-01-11.gif"><a href="contact.html" onmouseover="return CSIShow(/*CMP*/'button2',1)" onmouseout="return CSIShow(/*CMP*/'button2',0)" onclick="return CSButtonReturn()"><img src="../graphics/Bar/ButtonBar-01-11.gif" width="100" height="40" name="button2" border="0"></a></csobj></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr height="73">
+					<td width="1" height="73"><spacer type="block" width="1" height="73"></td>
+					<td width="47" height="73"></td>
+					<td width="557" height="73" colspan="1" rowspan="1" valign="top" align="left" xpos="47">
+						<table border="0" cellpadding="0" cellspacing="2" width="510">
+							<tr>
+								<td colspan="3" bgcolor="#5d0000"><b>Tuesday, June 8, 1999</b></td>
+							</tr>
+							<tr>
+								<td width="5"></td>
+								<td width="492">Our guild has now grown in number to a whopping 18; please welcome Sirton, MeanMax, and Karthin.
+									<p>We are still recruting new members, so if you are interested, please contact <a href="mailto:seether486@home.com">Loroden</a>.</td>
+								<td width="5"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr height="148">
+					<td width="1" height="148"><spacer type="block" width="1" height="148"></td>
+					<td width="47" height="148"></td>
+					<td width="557" height="148" colspan="1" rowspan="1" valign="top" align="left" xpos="47">
+						<table border="0" cellpadding="0" cellspacing="2" width="510">
+							<tr>
+								<td colspan="3" bgcolor="#5d0000"><b>Monday, May 24, 1999</b></td>
+							</tr>
+							<tr>
+								<td width="5"></td>
+								<td width="492">Sons of Faydwer web site is now up and functional, yet still unter construction...
+									<p>We would like to welcome Ruud, Rophobic, and Maradon to our ranks. The guild will be engaged in a quest today at 10pm EST down to Befallen in order to decimate the evil that befouls that horid place.</td>
+								<td width="5"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr height="60">
+					<td width="1" height="60"><spacer type="block" width="1" height="60"></td>
+					<td width="604" height="60" colspan="2" rowspan="1" valign="top" align="left" xpos="0"><img height="60" width="600" src="../graphics/sofBottom.gif"></td>
+				</tr>
+			</table>
+			[ <a href="#Top">Top</a> ]</center>
+	</body>
+
+</html>
